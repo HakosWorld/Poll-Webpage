@@ -1,0 +1,157 @@
+html  {
+  background-image: url('images/pollbackground.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1080px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000000b8;
+  min-height:3em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+}
+.icons{
+  text-decoration: none;
+  border:0.1em solid black ;
+  padding: 0.5em 1em 0.5em 1em;
+ 
+  color: rgb(255, 255, 255);
+  background-color: rgba(43, 58, 196, 0.877);
+  border-radius: 10px;
+}
+
+.icons:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+  height: 3.7em;
+}
+.loginAndSignup{
+  margin: auto 0;
+}
+.menue{
+  margin: auto 0;
+}
+.menue a{
+  
+  text-decoration: none;
+  border:0.1em solid black ;
+  padding: 0.5em;
+  width: 5em;
+  color: rgb(255, 255, 255);
+  background-color: rgba(43, 58, 196, 0.877);
+  border-radius: 10px;
+ 
+
+  
+}
+
+
+main{
+  padding: 5em;
+  
+ 
+  
+}
+.btns{
+  text-decoration: none;
+  border:0.1em solid black ;
+  padding: 0.5em;
+  width: 5em;
+  color: rgb(255, 255, 255);
+  background-color: rgba(43, 58, 196, 0.877);
+  border-radius: 10px;
+
+}
+
+.btns:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+}
+
+
+.logo{
+border: px;
+
+}
+
+
+
+
+.white{
+  color: white;
+  border-color: black;
+  text-shadow: 3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black; 
+}
+
+
+
+h1{
+  font-size: 80px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+h4{
+  font-size: 30px;
+  
+  margin-bottom: 2em;
+}
+#cont{
+  color: black;
+}
+
+
+
+footer{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-top: 10px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width:100%;
+  background-color: #000000b8;
+  color:white;
+  text-align: center;
+}
+
+.menue a:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+
+}
+
+.custom-alert {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

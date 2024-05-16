@@ -1,0 +1,55 @@
+main a{
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    height: 15em;
+    display: flex;
+    margin-top: 5em;
+    border-radius: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0.5em;
+    padding-bottom: 4em
+    
+}
+.polls-browse{
+    border: 0.2em solid rgb(111, 101, 101) ;
+    border-radius: 15%;
+    background-color: rgba(111, 132, 238, 0.641);
+    width: 20em;
+    height: 15em;
+    box-shadow: 3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black; 
+
+}
+
+main h1{
+    text-align: center;
+    overflow-wrap:break-word ;
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; 
+}
+
+main h4{
+    text-align: center;
+    overflow-wrap:break-word ;
+    font-size: 1em;
+}
+.blogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

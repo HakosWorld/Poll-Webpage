@@ -1,0 +1,47 @@
+.progress-container {
+  position: relative;
+  width: 100%;
+  font-size: 30px;
+}
+
+.progress-bar    {
+  width: 100%;
+  height: 50px;
+  accent-color: rgb(50, 130, 209);
+  overflow: hidden;
+}
+
+.progress-text {
+  position: absolute;
+  left: 40%;
+  font-size: 16px;
+  color: #000000;
+}
+
+  
+h1{
+    font-size: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: dotted;
+    color:white;
+    text-shadow: 3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black; 
+  }
+
+  
+h2{
+    font-size: 33px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: dotted;
+   
+    
+  }
+
+
+  .voteinfo{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+

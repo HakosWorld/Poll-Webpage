@@ -1,0 +1,51 @@
+@media (max-width:768px) {
+
+    .conatiner{
+        max-width: 786px;
+        max-height: fit-content;
+        padding: 5em;
+    }
+    .polls-browse{
+        width: 15em;
+        height: 15em;
+        
+    }
+    main{
+        width: auto;
+        height: auto;
+        padding: 5em;
+    }
+    main a{
+        width:fit-content;
+    }
+    form{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .conatiner{
+        max-width: 500;
+
+    }
+    .polls-browse{
+        width:20em;
+        height: 15em;
+    }
+    main{
+        width: auto;
+        height: auto;
+        padding: 0;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+    }
+    main a{
+        width:fit-content;
+    }
+    .menue  {
+        display: none;
+    }
+    form{
+        margin-left: 0;
+    }
+}

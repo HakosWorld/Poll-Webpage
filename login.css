@@ -1,0 +1,241 @@
+html  {
+    background-image: url('images/pollbackground.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment: fixed;
+    padding: 1em;
+    height: 100%;
+   
+  }
+
+
+  .container{
+    margin: 1em auto;
+    padding: 1em;
+    
+    width: 100%;
+    max-width: fit-content;
+    height: 100%;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000000b8;
+    min-height:3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+  }
+  .icons{
+    text-decoration: none;
+    border:0.1em solid black ;
+    padding: 0.5em 1em 0.5em 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 58, 196, 0.877);
+    border-radius: 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+    height: 3.7em;
+  }
+  .loginAndSignup{
+    margin: auto 0;
+  }
+  .menue{
+    margin: auto 0;
+  }
+  .menue a{
+   
+    text-decoration: none;
+    border:0.1em solid black ;
+    padding: 0.5em;
+    width: 5em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 58, 196, 0.877);
+    border-radius: 10px;
+   
+
+    
+  }
+  
+  main p{
+    background-color: #000000b8;
+    color:white;
+    padding: 10px;
+    padding-left: 53px;
+    padding-right: 53px;
+    border-radius: 10px;
+
+  }
+
+  main{
+    padding-top:2em;
+    padding-bottom: 2em;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+    flex-direction:column;
+    display: flex;
+  }
+  main a{
+    text-decoration: none;
+    border:0.1em solid black ;
+    padding: 0.5em;
+    width: 5em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 58, 196, 0.877);
+    border-radius: 10px;
+  
+  }
+  login-button {
+    margin-top: 1em; /* Add some margin to the top for spacing */
+  }
+  
+  .input{
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black;
+  }
+  
+  .logo{
+  border: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  
+  }
+
+ #btn {
+  width: 100px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+  
+
+  h1{
+    font-size: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+
+  #loginlogo{
+    padding-bottom: 20px;
+    
+  }
+  
+  .footer{
+    background-color: black;
+  }
+
+  .custom-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  h2{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    padding-top:60px;
+    color: white;
+ 
+    padding-bottom: 55px;
+    text-shadow: 3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black; /* Larger text shadow for a border effect */
+
+}
+
+.icons:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+}
+
+.btns:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+}
+
+.form1{
+ 
+    padding-left: 3em;
+}
+
+#manual{
+    background-color: white;
+    border-radius: 10px;
+    width: 347px;
+    padding:14px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.optionsContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.op{
+   margin-bottom: 10px;
+ 
+}
+
+#create{
+  align-items: center;
+}
+
+#create{
+margin-left: 134px;
+}
+
+footer{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width:100%;
+  background-color: #000000b8;
+  color:white;
+  padding: 1px;
+  text-align: center;
+}
+.menue a:hover{
+  background-color: rgba(104, 153, 196, 0.877);
+
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
